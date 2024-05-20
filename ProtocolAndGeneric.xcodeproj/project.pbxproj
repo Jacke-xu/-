@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		651DB26C2BF6F0B60027A990 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB26B2BF6F0B60027A990 /* AppDelegate.m */; };
-		651DB26F2BF6F0B60027A990 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB26E2BF6F0B60027A990 /* SceneDelegate.m */; };
 		651DB2722BF6F0B60027A990 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2712BF6F0B60027A990 /* ViewController.m */; };
 		651DB2752BF6F0B60027A990 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 651DB2742BF6F0B60027A990 /* Base */; };
 		651DB2772BF6F0B80027A990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651DB2762BF6F0B80027A990 /* Assets.xcassets */; };
@@ -17,6 +16,12 @@
 		651DB2872BF6F0B80027A990 /* ProtocolAndGenericTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2862BF6F0B80027A990 /* ProtocolAndGenericTests.m */; };
 		651DB2912BF6F0B80027A990 /* ProtocolAndGenericUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2902BF6F0B80027A990 /* ProtocolAndGenericUITests.m */; };
 		651DB2932BF6F0B80027A990 /* ProtocolAndGenericUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2922BF6F0B80027A990 /* ProtocolAndGenericUITestsLaunchTests.m */; };
+		651DB2A12BF6F1620027A990 /* SDKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2A02BF6F1620027A990 /* SDKRequest.m */; };
+		651DB2A42BF6F1770027A990 /* SDKResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2A32BF6F1770027A990 /* SDKResponse.m */; };
+		651DB2A72BF6F1B50027A990 /* UserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2A62BF6F1B50027A990 /* UserRequest.m */; };
+		651DB2AA2BF6F1CA0027A990 /* UserResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2A92BF6F1CA0027A990 /* UserResponse.m */; };
+		651DB2AD2BF6F1E90027A990 /* SDKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2AC2BF6F1E90027A990 /* SDKContext.m */; };
+		651DB2B02BF6F2370027A990 /* ProtocolGenericTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 651DB2AF2BF6F2370027A990 /* ProtocolGenericTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +45,6 @@
 		651DB2672BF6F0B60027A990 /* ProtocolAndGeneric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolAndGeneric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651DB26A2BF6F0B60027A990 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		651DB26B2BF6F0B60027A990 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		651DB26D2BF6F0B60027A990 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		651DB26E2BF6F0B60027A990 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		651DB2702BF6F0B60027A990 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		651DB2712BF6F0B60027A990 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		651DB2742BF6F0B60027A990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,18 @@
 		651DB28C2BF6F0B80027A990 /* ProtocolAndGenericUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolAndGenericUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651DB2902BF6F0B80027A990 /* ProtocolAndGenericUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolAndGenericUITests.m; sourceTree = "<group>"; };
 		651DB2922BF6F0B80027A990 /* ProtocolAndGenericUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolAndGenericUITestsLaunchTests.m; sourceTree = "<group>"; };
+		651DB29F2BF6F1620027A990 /* SDKRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKRequest.h; sourceTree = "<group>"; };
+		651DB2A02BF6F1620027A990 /* SDKRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKRequest.m; sourceTree = "<group>"; };
+		651DB2A22BF6F1770027A990 /* SDKResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKResponse.h; sourceTree = "<group>"; };
+		651DB2A32BF6F1770027A990 /* SDKResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKResponse.m; sourceTree = "<group>"; };
+		651DB2A52BF6F1B50027A990 /* UserRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserRequest.h; sourceTree = "<group>"; };
+		651DB2A62BF6F1B50027A990 /* UserRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserRequest.m; sourceTree = "<group>"; };
+		651DB2A82BF6F1CA0027A990 /* UserResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserResponse.h; sourceTree = "<group>"; };
+		651DB2A92BF6F1CA0027A990 /* UserResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserResponse.m; sourceTree = "<group>"; };
+		651DB2AB2BF6F1E90027A990 /* SDKContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKContext.h; sourceTree = "<group>"; };
+		651DB2AC2BF6F1E90027A990 /* SDKContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKContext.m; sourceTree = "<group>"; };
+		651DB2AE2BF6F2370027A990 /* ProtocolGenericTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolGenericTest.h; sourceTree = "<group>"; };
+		651DB2AF2BF6F2370027A990 /* ProtocolGenericTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolGenericTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +121,18 @@
 			children = (
 				651DB26A2BF6F0B60027A990 /* AppDelegate.h */,
 				651DB26B2BF6F0B60027A990 /* AppDelegate.m */,
-				651DB26D2BF6F0B60027A990 /* SceneDelegate.h */,
-				651DB26E2BF6F0B60027A990 /* SceneDelegate.m */,
+				651DB29F2BF6F1620027A990 /* SDKRequest.h */,
+				651DB2A02BF6F1620027A990 /* SDKRequest.m */,
+				651DB2A22BF6F1770027A990 /* SDKResponse.h */,
+				651DB2A32BF6F1770027A990 /* SDKResponse.m */,
+				651DB2AB2BF6F1E90027A990 /* SDKContext.h */,
+				651DB2AC2BF6F1E90027A990 /* SDKContext.m */,
+				651DB2A52BF6F1B50027A990 /* UserRequest.h */,
+				651DB2A62BF6F1B50027A990 /* UserRequest.m */,
+				651DB2A82BF6F1CA0027A990 /* UserResponse.h */,
+				651DB2A92BF6F1CA0027A990 /* UserResponse.m */,
+				651DB2AE2BF6F2370027A990 /* ProtocolGenericTest.h */,
+				651DB2AF2BF6F2370027A990 /* ProtocolGenericTest.m */,
 				651DB2702BF6F0B60027A990 /* ViewController.h */,
 				651DB2712BF6F0B60027A990 /* ViewController.m */,
 				651DB2732BF6F0B60027A990 /* Main.storyboard */,
@@ -268,8 +293,13 @@
 			files = (
 				651DB2722BF6F0B60027A990 /* ViewController.m in Sources */,
 				651DB26C2BF6F0B60027A990 /* AppDelegate.m in Sources */,
+				651DB2A72BF6F1B50027A990 /* UserRequest.m in Sources */,
+				651DB2B02BF6F2370027A990 /* ProtocolGenericTest.m in Sources */,
+				651DB2A12BF6F1620027A990 /* SDKRequest.m in Sources */,
+				651DB2A42BF6F1770027A990 /* SDKResponse.m in Sources */,
 				651DB27D2BF6F0B80027A990 /* main.m in Sources */,
-				651DB26F2BF6F0B60027A990 /* SceneDelegate.m in Sources */,
+				651DB2AD2BF6F1E90027A990 /* SDKContext.m in Sources */,
+				651DB2AA2BF6F1CA0027A990 /* UserResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +486,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,6 +514,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
